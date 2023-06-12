@@ -11,7 +11,7 @@ When you want to make a preexisting project a GitHub repository.
 
 ### Why you use it
 
-You would use it because it is the only way to create an empty repository or reinitialize one.<br>
+You would use it because it is the only way to create an empty repository or reinitialize one.<br><br>
 
 ## git clone <repo_name>
 ### What it does
@@ -24,7 +24,7 @@ When starting the project for the very first time and you need the git repo.
 
 ### Why you use it
 
-You would use git clone <repo_name> to get the repository you’re wanting to work with on your VM.<br>
+You would use git clone <repo_name> to get the repository you’re wanting to work with on your VM.<br><br>
 
 ## git pull
 ### What it does
@@ -37,7 +37,7 @@ When you need to get the most recent changes made to the code and the changes we
 
 ### Why you use it
 
-You would use it because it’s the only way to get the most recent changes from GitHub.<br>
+You would use it because it’s the only way to get the most recent changes from GitHub.<br><br>
 
 ## git push
 ### What it does
@@ -51,7 +51,7 @@ When you have finished your specific task and need to upload it to GitHub.
 
 ### Why you use it
 
-You would use it because you want to push your most recent changes to GitHub.<br>
+You would use it because you want to push your most recent changes to GitHub.<br><br>
 
 ## git branch
 ### What it does 
@@ -65,7 +65,7 @@ Use this when you are unsure of what branch you are in and need to know.
 ### Why you use it
 
 You use it because you need to know the branch you’re working in, 
-it would cause problems to share a branch with another developer.<br>
+it would cause problems to share a branch with another developer.<br><br>
 
 ## git checkout <branch_name>
 ### What it does
@@ -84,7 +84,7 @@ and need a branch for that specific task.
 
 You would use it because it’s the only way to transfer to a pre-existing branch. 
 Or use  git checkout -b <branch_name> 
-because it is the only way of creating a branch and moving to it. <br>
+because it is the only way of creating a branch and moving to it. <br><br>
 
 ## git branch -d <branch_name>
 ### What it does
@@ -99,7 +99,7 @@ It will delete the branch which is best practice as it isn’t needed anymore.
 ### Why you use it
 
 You would use it because it is in the GitHub best practices to 
-delete a branch after the tasked being done on it is complete.<br>
+delete a branch after the tasked being done on it is complete.<br><br>
 
 ## git add <file_to_add> 
 ### What it does 
@@ -113,7 +113,7 @@ you use it when you want to prepare a git push.
 
 ### Why you use it
 
-you use it because this is the only way to push your changes to GitHub.<br>
+you use it because this is the only way to push your changes to GitHub.<br><br>
 
 ## git commit -m <message_explaining_changes>
 ### What it does 
@@ -128,7 +128,7 @@ you have added all the files need to the stored index.
 ### Why you use it
 
 You use it because if you don't record the changes to 
-the repository it is impossible for a git push to be accomplished.<br>
+the repository it is impossible for a git push to be accomplished.<br><br>
 
 ## git status
 ### What it does
@@ -143,7 +143,7 @@ you use it when you want to know what files have you have changed so far.
 ### Why you use it
 
 You use it if you have forgotten what files have been changed 
-or if you want to confirm before doing a git commit.<br>
+or if you want to confirm before doing a git commit.<br><br>
 
 ## git push --set-upstream <repo> <branch>
 ### What it does   
@@ -160,7 +160,7 @@ you use it when you first made a new branch and
 
 GitHub will not allow you to push changes to a repository,
 if it doesn't know what upstream you are using.
-So you use it because it will not work otherwise.<br>
+So you use it because it will not work otherwise.<br><br>
 
 ## git diff
 ### What it does
@@ -175,7 +175,7 @@ between the working directory and the stored index
 ### Why you use it
 
 You use it because it is a very helpful tool to see all the changes you made in the code 
-on one screen and you can analyze the differences.<br>
+on one screen and you can analyze the differences.<br><br>
 
 ## Scenarios for GitHub
 
