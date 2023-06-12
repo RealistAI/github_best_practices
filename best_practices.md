@@ -11,7 +11,7 @@ When you want to make a preexisting project a GitHub repository.
 
 ### Why you use it
 
-You would use it because it is the only way to create an empty repository or reinitialize one.
+You would use it because it is the only way to create an empty repository or reinitialize one.<br>
 
 ## git clone <repo_name>
 ### What it does
@@ -24,7 +24,7 @@ When starting the project for the very first time and you need the git repo.
 
 ### Why you use it
 
-You would use git clone <repo_name> to get the repository you’re wanting to work with on your VM.
+You would use git clone <repo_name> to get the repository you’re wanting to work with on your VM.<br>
 
 ## git pull
 ### What it does
@@ -37,12 +37,13 @@ When you need to get the most recent changes made to the code and the changes we
 
 ### Why you use it
 
-You would use it because it’s the only way to get the most recent changes from GitHub.
+You would use it because it’s the only way to get the most recent changes from GitHub.<br>
 
 ## git push
 ### What it does
 
-It pushes your most recent changes to GitHub from the VM. It is best practice to push your changes to a branch that is not the master branch.
+It pushes your most recent changes to GitHub from the VM. 
+It is best practice to push your changes to a branch that is not the master branch.
 
 ### When to use it
 
@@ -50,7 +51,7 @@ When you have finished your specific task and need to upload it to GitHub.
 
 ### Why you use it
 
-You would use it because you want to push your most recent changes to GitHub.
+You would use it because you want to push your most recent changes to GitHub.<br>
 
 ## git branch
 ### What it does 
@@ -63,20 +64,27 @@ Use this when you are unsure of what branch you are in and need to know.
 
 ### Why you use it
 
-You use it because you need to know the branch you’re working in, it would cause problems to share a branch with another developer.
+You use it because you need to know the branch you’re working in, 
+it would cause problems to share a branch with another developer.<br>
 
 ## git checkout <branch_name>
 ### What it does
 
-Moves you to another branch, only works if the branch already exists. Otherwise, run the command git checkout -b <branch_name>, as it creates a new branch and moves you into that new branch.
+Moves you to another branch, only works if the branch already exists. 
+Otherwise, run the command git checkout -b <branch_name>, 
+as it creates a new branch and moves you into that new branch.
 
 ### When to use it
 
-Use this when you want to move into another branch and you know the branch exists already. or use git checkout -b <branch_name> when you are starting a new task and need a branch for that specific task.
+Use this when you want to move into another branch and you know the branch exists already. 
+or use git checkout -b <branch_name> when you are starting a new task 
+and need a branch for that specific task.
 
 ### Why you use it
 
-You would use it because it’s the only way to transfer to a pre-existing branch. Or use  git checkout -b <branch_name> because it is the only way of creating a branch and moving to it.
+You would use it because it’s the only way to transfer to a pre-existing branch. 
+Or use  git checkout -b <branch_name> 
+because it is the only way of creating a branch and moving to it. <br>
 
 ## git branch -d <branch_name>
 ### What it does
@@ -85,16 +93,19 @@ Deletes the specified branch from your VM.
 
 ### When to use it
 
-Use this when you have finished the task that the branch was created for. It will delete the branch which is best practice as it isn’t needed anymore.
+Use this when you have finished the task that the branch was created for. 
+It will delete the branch which is best practice as it isn’t needed anymore.
 
 ### Why you use it
 
-You would use it because it is in the GitHub best practices to delete a branch after the tasked being done on it is complete.
+You would use it because it is in the GitHub best practices to 
+delete a branch after the tasked being done on it is complete.<br>
 
 ## git add <file_to_add> 
 ### What it does 
 
-Adds file to the stored index. You can add files by their specific name or by using a period “.”. a period adds all changes made within its tree.
+Adds file to the stored index. You can add files by their specific name or 
+by using a period “.”. a period adds all changes made within its tree.
 
 ### When to use it
 
@@ -102,7 +113,7 @@ you use it when you want to prepare a git push.
 
 ### Why you use it
 
-you use it because this is the only way to push your changes to GitHub.
+you use it because this is the only way to push your changes to GitHub.<br>
 
 ## git commit -m <message_explaining_changes>
 ### What it does 
@@ -111,16 +122,19 @@ This records changes to the repository.
 
 ### When to use it
 
-you use it when you have finished a specific task and you have added all the files need to the stored index. 
+you use it when you have finished a specific task and 
+you have added all the files need to the stored index. 
 
 ### Why you use it
 
-You use it because if you don't record the changes to the repository it is impossible for a git push to be accomplished.
+You use it because if you don't record the changes to 
+the repository it is impossible for a git push to be accomplished.<br>
 
 ## git status
 ### What it does
 
-this shows the status of the working tree. so if you made changes you main.py it will reflect that in the git status command.
+this shows the status of the working tree. 
+so if you made changes you main.py it will reflect that in the git status command.
 
 ### When to use it
 
@@ -128,20 +142,25 @@ you use it when you want to know what files have you have changed so far.
 
 ### Why you use it
 
-You use it if you have forgotten what files have been changed or if you want to confirm before doing a git commit.
+You use it if you have forgotten what files have been changed 
+or if you want to confirm before doing a git commit.<br>
 
 ## git push --set-upstream <repo> <branch>
 ### What it does   
 
-This sets the upstream for your current working branch. That means it sets the destination for where it goes when you do a git push.
+This sets the upstream for your current working branch. 
+  That means it sets the destination for where it goes when you do a git push.
 
 ### When to use it
 
-you use it when you first made a new branch and GitHub needs to know where you want your content to go.
+you use it when you first made a new branch and 
+  GitHub needs to know where you want your content to go.
 
 ### Why you use it
 
-GitHub will not allow you to push changes to a repository if it doesn't know what upstream you are using. So you use it because it will not work otherwise.
+GitHub will not allow you to push changes to a repository,
+if it doesn't know what upstream you are using.
+So you use it because it will not work otherwise.<br>
 
 ## git diff
 ### What it does
@@ -150,11 +169,13 @@ it shows the changes between commits, commit and working tree, etc.
 
 ### When to use it
 
-you use it when you want to see the actual code changes between the working directory and the stored index
+you use it when you want to see the actual code changes 
+between the working directory and the stored index
 
 ### Why you use it
 
-You use it because it is a very helpful tool to see all the changes you made in the code on one screen and you can analyze the differences.
+You use it because it is a very helpful tool to see all the changes you made in the code 
+on one screen and you can analyze the differences.<br>
 
 ## Scenarios for GitHub
 
@@ -172,7 +193,7 @@ it will then ask him for his GitHub information, which he will enter and the dat
 
 Miquel then went to their GitHub repository and created a pull request, this is so his code can be reviewed by senior developer. shortly after, Miquel's code has been approved, so he had completed his task.
 
-Miquel will then run the command git branch -d testing_pipeline to delete the branch he was working in, since his task as been completed there is no reason to use the branch.
+Miquel will then run the command git branch -d testing_pipeline to delete the branch he was working in, since his task as been completed there is no reason to use the branch.<br><br>
 
 ### scenario 2:  
 
@@ -192,7 +213,7 @@ After comparing the changes and running the commands to add, commit and push his
 
 Phineas will then went to their GitHub repository and created a pull request, where Gregorius looked over his code. Gregorius approved the code so Phineas has completed his task.
 
-Phineas deleted his branch as normal standard and then ran the git branch command to confirm he had deleted the branch and to show what branch he was in now. 
+Phineas deleted his branch as normal standard and then ran the git branch command to confirm he had deleted the branch and to show what branch he was in now. <br><br>
 
 ## Troubleshooting GitHub
 
